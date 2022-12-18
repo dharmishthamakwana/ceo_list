@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class Index extends StatefulWidget {
@@ -12,10 +14,14 @@ class _IndexState extends State<Index> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.greenAccent.shade100,
+        backgroundColor: Colors.blue.shade100,
         appBar: AppBar(
-          backgroundColor: Colors.green,
-          title: Text("CEO List",style: TextStyle(fontSize: 35)),
+          backgroundColor: Colors.blue,
+          centerTitle: true,
+          title: Text("CEO List",style: TextStyle(fontSize: 35),
+          ),
+
+
         ),
         body: Column(
           children: [
@@ -26,7 +32,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.account_circle,color: Colors.white,size: 45),
                 ),
 
@@ -35,7 +41,7 @@ class _IndexState extends State<Index> {
                     margin: EdgeInsets.only(top: 10,left: 3),
                     height: 70,
                     width: 100,
-                    color: Colors.green,
+                    color: Colors.blue,
                     child: Column(
                       children: [
                         Container(
@@ -60,7 +66,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3,right: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Container(
                     child: Icon(Icons.navigate_next_sharp,size: 40, color: Colors.white),
                   ),
@@ -75,7 +81,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.account_circle,color: Colors.white,size: 45),
 
                 ),
@@ -85,7 +91,7 @@ class _IndexState extends State<Index> {
                     margin: EdgeInsets.only(top: 10,left: 3),
                     height: 70,
                     width: 100,
-                    color: Colors.green,
+                    color: Colors.blue,
                     child: Column(
                       children: [
                         Container(
@@ -110,7 +116,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3,right: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.navigate_next_sharp,size: 40, color: Colors.white),
 
                 ),
@@ -123,7 +129,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.account_circle,color: Colors.white,size: 45),
                 ),
 
@@ -132,7 +138,7 @@ class _IndexState extends State<Index> {
                     margin: EdgeInsets.only(top: 10,left: 3),
                     height: 70,
                     width: 100,
-                    color: Colors.green,
+                    color: Colors.blue,
                     child: Column(
                       children: [
                         Container(
@@ -157,7 +163,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3,right: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.navigate_next_sharp,size: 40, color: Colors.white),
 
                 ),
@@ -171,7 +177,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.account_circle,color: Colors.white,size: 45),
 
                 ),
@@ -181,7 +187,7 @@ class _IndexState extends State<Index> {
                     margin: EdgeInsets.only(top: 10,left: 3),
                     height: 70,
                     width: 100,
-                    color: Colors.green,
+                    color: Colors.blue,
                     child: Column(
                       children: [
                         Container(
@@ -204,7 +210,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3,right: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.navigate_next_sharp,size: 40, color: Colors.white),
 
                 ),
@@ -218,7 +224,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.account_circle,color: Colors.white,size: 45),
 
                 ),
@@ -228,19 +234,19 @@ class _IndexState extends State<Index> {
                     margin: EdgeInsets.only(top: 10,left: 3),
                     height: 70,
                     width: 100,
-                    color: Colors.green,
+                    color: Colors.blue,
                     child: Column(
                       children: [
                         Container(
                           margin: EdgeInsets.only(left: 10,top: 5),
                           alignment: Alignment.centerLeft,
-                          child: Text("Akhil Sarkar",style: TextStyle(color: Colors.white,fontSize: 25)),
+                          child: Text("gautam adani",style: TextStyle(color: Colors.white,fontSize: 25),),
                         ),
 
                         Container(
                           margin: EdgeInsets.only(left: 10),
                           alignment: Alignment.centerLeft,
-                          child: Text("Capital , 18",style: TextStyle(color: Colors.white,fontSize: 15),),
+                          child: Text("adani Enterprises Ltd.",style: TextStyle(color: Colors.white,fontSize: 15),),
                         )
                       ],
                     ),
@@ -251,7 +257,7 @@ class _IndexState extends State<Index> {
                   margin: EdgeInsets.only(top: 10,left: 3,right: 3),
                   height: 70,
                   width: 50,
-                  color: Colors.green.shade600,
+                  color: Colors.blue.shade900,
                   child: Icon(Icons.navigate_next_sharp,size: 40, color: Colors.white),
 
                 ),
